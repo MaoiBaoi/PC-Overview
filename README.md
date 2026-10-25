@@ -12,8 +12,54 @@ PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und 
 
 <img width="614" height="254" alt="{3A22E719-5974-40CE-86D0-3BA6F7562811}" src="https://github.com/user-attachments/assets/edf374b2-e6dc-4d02-94db-332345aec550" />
 
+English
+## Features
+
+* **All essentials at a glance:** GPU temperature (with hotspot), CPU temperature, power draw of GPU and CPU in Watts, total combined power and estimated total PC power consumption
+* **Dynamic temperature colors:** The numbers smoothly transition from ice blue to fiery red; you set the gradient ranges for GPU, CPU, and hotspot yourself
+* **Dual fan controls:** GPU fan and CPU fan (all controllable motherboard fans), with RPM readout and Auto button to return to automatic mode
+* **Built-in safety feature:** If it gets too hot, the control automatically switches back to Auto
+* **Safe upon exit:** When closing or crashing, fans revert to automatic mode
+* **Two designs:** Standard and Matrix, with smooth character rain
+* **German and English:** switchable in the Info window, defaults to system language
+* **Flexible:** Fullscreen (F11), always on top (T), remembers window and settings, optional start with Windows
+* **Lightweight:** Runs with low priority, the Matrix design pauses during fullscreen gaming on request
+* **Private:** The program itself establishes no internet connection
+
+## Installation
+
+1. Under **Releases**, download the file `PCUeberblick.exe`
+2. Run it and confirm the Administrator prompt
+3. Done. For CPU values and motherboard fans, the program asks once if it should install the PawnIO driver via winget. Restart the program afterwards
+
+## Requirements
+
+* Windows 10 or 11
+* Administrator privileges, otherwise CPU values and fan control are unavailable
+* PawnIO for CPU values and motherboard fans
+* Not every motherboard allows fan control. In that case, the slider shows n/a
+
+## Controls
+
+* Left click or drag on a slider: set fixed value
+* Right click on the slider or click Auto: return to automatic mode
+* F11 or double click: Fullscreen, Esc exits it
+* T: always on top
+* D: write list of all sensors to desktop
+* I: install PawnIO
+* Click the i: Info and settings
+
+## Notes
+
+* **Use at your own risk.** Anyone setting fans manually should keep an eye on temperatures. The safety feature kicks in at CPU 85 °C, GPU 80 °C, or Hotspot 90 °C, but does not replace proper monitoring.
+* Windows SmartScreen or your antivirus might warn you because the EXE is not signed and uses hardware drivers. The entire source code is in this repository; you can also build the EXE yourself.
+
+## Building from source
+
+Requirement is a .NET SDK with C# 14 on Windows.
+
 German
-## Vorzüge
+## Features
 
 * **Alles Wichtige groß im Blick:** GPU Temperatur (mit Hotspot), CPU Temperatur, Leistungsaufnahme von GPU und CPU in Watt, Summe und geschätzter Gesamtverbrauch des PCs
 * **Temperaturfarben:** Die Zahlen färben sich stufenlos von Eisblau bis Feuerrot, die Farbverlaufbereiche stellst du für GPU, CPU und Hotspot selbst ein
