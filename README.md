@@ -12,8 +12,7 @@ PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und 
 
 <img width="614" height="254" alt="{3A22E719-5974-40CE-86D0-3BA6F7562811}" src="https://github.com/user-attachments/assets/edf374b2-e6dc-4d02-94db-332345aec550" />
 
-## English
-## Features
+## (English) Features
 
 * **All essentials at a glance:** GPU temperature (with hotspot), CPU temperature, power draw of GPU and CPU in Watts, total combined power and estimated total PC power consumption
 * **Dynamic temperature colors:** The numbers smoothly transition from ice blue to fiery red; you set the gradient ranges for GPU, CPU, and hotspot yourself
@@ -58,8 +57,8 @@ PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und 
 
 Requirement is a .NET SDK with C# 14 on Windows.
 
-German
-## Features
+
+## (German) Features
 
 * **Alles Wichtige groß im Blick:** GPU Temperatur (mit Hotspot), CPU Temperatur, Leistungsaufnahme von GPU und CPU in Watt, Summe und geschätzter Gesamtverbrauch des PCs
 * **Temperaturfarben:** Die Zahlen färben sich stufenlos von Eisblau bis Feuerrot, die Farbverlaufbereiche stellst du für GPU, CPU und Hotspot selbst ein
