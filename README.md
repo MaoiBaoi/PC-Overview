@@ -1,4 +1,4 @@
-# PC Overview
+PC Overview
 
 ## English
 PC Overview shows GPU and CPU temperature and power draw in huge, readable numbers and lets you control both fans directly. Includes hotspot display, estimated total power, fan speed readout and an over temperature protection that switches back to Auto on its own. You set the temperature color scale for GPU, CPU and hotspot yourself. Two designs (Standard and Matrix), fullscreen, autostart, German and English. The software is also highly scalable
