@@ -2,7 +2,7 @@
 
 **Temperatur, Leistung und Lüfter deines PCs. Groß, klar und auf einen Blick.**
 
-PC Überblick ist ein kleines, kostenloses Windows Programm. Es zeigt dir GPU und CPU Temperatur sowie den Stromverbrauch in einer riesigen, gut lesbaren Schrift und lässt dich beide Lüfter direkt regeln. Eine einzige EXE, keine Installation, keine Werbung, kein Konto.
+PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und gut lesbar und lässt dich beide Lüfter direkt regeln. Mit Hotspot Anzeige, geschätztem Gesamtverbrauch, Drehzahlanzeige und Schutzfunktion, die bei zu hohen Temperaturen automatisch zurück auf Auto schaltet. Die Farbskala der Temperaturen stellst du für GPU, CPU und Hotspot selbst ein. Zwei Designs (Standard und Matrix), Vollbild, Autostart, Deutsch und Englisch.
 
 ## Vorzüge
 
@@ -68,4 +68,4 @@ MIT, siehe `LICENSE`. Autor: MaoiBaoi
 
 ## English summary
 
-**PC Überblick** shows GPU and CPU temperature and power draw in huge, readable numbers and lets you control the GPU fan and the CPU/motherboard fans with a clean slider UI. Single portable EXE, built on LibreHardwareMonitor, includes an automatic over temperature protection and two visual themes (Standard and Matrix). Windows 10/11, needs administrator rights and the PawnIO driver for CPU values and motherboard fan control. The UI is available in German and English (switch it in the info window, the default follows your system language). Use at your own risk.
+PC Overview shows GPU and CPU temperature and power draw in huge, readable numbers and lets you control both fans directly. Includes hotspot display, estimated total power, fan speed readout and an over temperature protection that switches back to Auto on its own. You set the temperature color scale for GPU, CPU and hotspot yourself. Two designs (Standard and Matrix), fullscreen, autostart, German and English.
