@@ -1,0 +1,154 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PCUeberblick</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="max.wav" />
+    <None Remove="Ghstlyecft.wav" />
+    <None Remove="info.png" />
+    <None Remove="app.ico" />
+    <None Remove="f00.png" />
+    <None Remove="f01.png" />
+    <None Remove="f02.png" />
+    <None Remove="f03.png" />
+    <None Remove="f04.png" />
+    <None Remove="f05.png" />
+    <None Remove="f06.png" />
+    <None Remove="f07.png" />
+    <None Remove="f08.png" />
+    <None Remove="f09.png" />
+    <None Remove="f10.png" />
+    <None Remove="f11.png" />
+    <None Remove="f12.png" />
+    <None Remove="f13.png" />
+    <None Remove="f14.png" />
+    <None Remove="f15.png" />
+    <None Remove="f16.png" />
+    <None Remove="f17.png" />
+    <None Remove="f18.png" />
+    <None Remove="f19.png" />
+    <None Remove="f20.png" />
+    <None Remove="f21.png" />
+    <None Remove="f22.png" />
+    <None Remove="f23.png" />
+    <None Remove="f24.png" />
+    <None Remove="f25.png" />
+    <None Remove="f26.png" />
+    <None Remove="f27.png" />
+    <None Remove="f28.png" />
+    <None Remove="f29.png" />
+    <None Remove="f30.png" />
+    <None Remove="f31.png" />
+    <None Remove="f32.png" />
+    <None Remove="f33.png" />
+    <None Remove="f34.png" />
+    <None Remove="f35.png" />
+    <None Remove="f36.png" />
+    <None Remove="f37.png" />
+    <None Remove="f38.png" />
+    <None Remove="LibreHardwareMonitorLib.dll" />
+    <None Remove="HidSharp.dll" />
+    <None Remove="BlackSharp.Core.dll" />
+    <None Remove="DiskInfoToolkit.dll" />
+    <None Remove="RAMSPDToolkit-NDD.dll" />
+    <None Remove="Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Remove="Microsoft.Bcl.HashCode.dll" />
+    <None Remove="System.Buffers.dll" />
+    <None Remove="System.CodeDom.dll" />
+    <None Remove="System.Collections.Immutable.dll" />
+    <None Remove="System.Formats.Nrbf.dll" />
+    <None Remove="System.IO.Pipelines.dll" />
+    <None Remove="System.Memory.dll" />
+    <None Remove="System.Numerics.Vectors.dll" />
+    <None Remove="System.Resources.Extensions.dll" />
+    <None Remove="System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Remove="System.Security.AccessControl.dll" />
+    <None Remove="System.Security.Principal.Windows.dll" />
+    <None Remove="System.Text.Encodings.Web.dll" />
+    <None Remove="System.Text.Json.dll" />
+    <None Remove="System.Threading.AccessControl.dll" />
+    <None Remove="System.Threading.Tasks.Extensions.dll" />
+    <EmbeddedResource Include="max.wav" LogicalName="max.wav" />
+    <EmbeddedResource Include="Ghstlyecft.wav" LogicalName="Ghstlyecft.wav" />
+    <EmbeddedResource Include="info.png" LogicalName="info.png" />
+    <EmbeddedResource Include="app.ico" LogicalName="app.ico" />
+    <EmbeddedResource Include="f00.png" LogicalName="f00.png" />
+    <EmbeddedResource Include="f01.png" LogicalName="f01.png" />
+    <EmbeddedResource Include="f02.png" LogicalName="f02.png" />
+    <EmbeddedResource Include="f03.png" LogicalName="f03.png" />
+    <EmbeddedResource Include="f04.png" LogicalName="f04.png" />
+    <EmbeddedResource Include="f05.png" LogicalName="f05.png" />
+    <EmbeddedResource Include="f06.png" LogicalName="f06.png" />
+    <EmbeddedResource Include="f07.png" LogicalName="f07.png" />
+    <EmbeddedResource Include="f08.png" LogicalName="f08.png" />
+    <EmbeddedResource Include="f09.png" LogicalName="f09.png" />
+    <EmbeddedResource Include="f10.png" LogicalName="f10.png" />
+    <EmbeddedResource Include="f11.png" LogicalName="f11.png" />
+    <EmbeddedResource Include="f12.png" LogicalName="f12.png" />
+    <EmbeddedResource Include="f13.png" LogicalName="f13.png" />
+    <EmbeddedResource Include="f14.png" LogicalName="f14.png" />
+    <EmbeddedResource Include="f15.png" LogicalName="f15.png" />
+    <EmbeddedResource Include="f16.png" LogicalName="f16.png" />
+    <EmbeddedResource Include="f17.png" LogicalName="f17.png" />
+    <EmbeddedResource Include="f18.png" LogicalName="f18.png" />
+    <EmbeddedResource Include="f19.png" LogicalName="f19.png" />
+    <EmbeddedResource Include="f20.png" LogicalName="f20.png" />
+    <EmbeddedResource Include="f21.png" LogicalName="f21.png" />
+    <EmbeddedResource Include="f22.png" LogicalName="f22.png" />
+    <EmbeddedResource Include="f23.png" LogicalName="f23.png" />
+    <EmbeddedResource Include="f24.png" LogicalName="f24.png" />
+    <EmbeddedResource Include="f25.png" LogicalName="f25.png" />
+    <EmbeddedResource Include="f26.png" LogicalName="f26.png" />
+    <EmbeddedResource Include="f27.png" LogicalName="f27.png" />
+    <EmbeddedResource Include="f28.png" LogicalName="f28.png" />
+    <EmbeddedResource Include="f29.png" LogicalName="f29.png" />
+    <EmbeddedResource Include="f30.png" LogicalName="f30.png" />
+    <EmbeddedResource Include="f31.png" LogicalName="f31.png" />
+    <EmbeddedResource Include="f32.png" LogicalName="f32.png" />
+    <EmbeddedResource Include="f33.png" LogicalName="f33.png" />
+    <EmbeddedResource Include="f34.png" LogicalName="f34.png" />
+    <EmbeddedResource Include="f35.png" LogicalName="f35.png" />
+    <EmbeddedResource Include="f36.png" LogicalName="f36.png" />
+    <EmbeddedResource Include="f37.png" LogicalName="f37.png" />
+    <EmbeddedResource Include="f38.png" LogicalName="f38.png" />
+    <EmbeddedResource Include="LibreHardwareMonitorLib.dll" LogicalName="LibreHardwareMonitorLib.dll" />
+    <EmbeddedResource Include="HidSharp.dll" LogicalName="HidSharp.dll" />
+    <EmbeddedResource Include="BlackSharp.Core.dll" LogicalName="BlackSharp.Core.dll" />
+    <EmbeddedResource Include="DiskInfoToolkit.dll" LogicalName="DiskInfoToolkit.dll" />
+    <EmbeddedResource Include="RAMSPDToolkit-NDD.dll" LogicalName="RAMSPDToolkit-NDD.dll" />
+    <EmbeddedResource Include="Microsoft.Bcl.AsyncInterfaces.dll" LogicalName="Microsoft.Bcl.AsyncInterfaces.dll" />
+    <EmbeddedResource Include="Microsoft.Bcl.HashCode.dll" LogicalName="Microsoft.Bcl.HashCode.dll" />
+    <EmbeddedResource Include="System.Buffers.dll" LogicalName="System.Buffers.dll" />
+    <EmbeddedResource Include="System.CodeDom.dll" LogicalName="System.CodeDom.dll" />
+    <EmbeddedResource Include="System.Collections.Immutable.dll" LogicalName="System.Collections.Immutable.dll" />
+    <EmbeddedResource Include="System.Formats.Nrbf.dll" LogicalName="System.Formats.Nrbf.dll" />
+    <EmbeddedResource Include="System.IO.Pipelines.dll" LogicalName="System.IO.Pipelines.dll" />
+    <EmbeddedResource Include="System.Memory.dll" LogicalName="System.Memory.dll" />
+    <EmbeddedResource Include="System.Numerics.Vectors.dll" LogicalName="System.Numerics.Vectors.dll" />
+    <EmbeddedResource Include="System.Resources.Extensions.dll" LogicalName="System.Resources.Extensions.dll" />
+    <EmbeddedResource Include="System.Runtime.CompilerServices.Unsafe.dll" LogicalName="System.Runtime.CompilerServices.Unsafe.dll" />
+    <EmbeddedResource Include="System.Security.AccessControl.dll" LogicalName="System.Security.AccessControl.dll" />
+    <EmbeddedResource Include="System.Security.Principal.Windows.dll" LogicalName="System.Security.Principal.Windows.dll" />
+    <EmbeddedResource Include="System.Text.Encodings.Web.dll" LogicalName="System.Text.Encodings.Web.dll" />
+    <EmbeddedResource Include="System.Text.Json.dll" LogicalName="System.Text.Json.dll" />
+    <EmbeddedResource Include="System.Threading.AccessControl.dll" LogicalName="System.Threading.AccessControl.dll" />
+    <EmbeddedResource Include="System.Threading.Tasks.Extensions.dll" LogicalName="System.Threading.Tasks.Extensions.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="LibreHardwareMonitorLib" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
