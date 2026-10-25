@@ -12,7 +12,7 @@ PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und 
 
 <img width="614" height="254" alt="{3A22E719-5974-40CE-86D0-3BA6F7562811}" src="https://github.com/user-attachments/assets/edf374b2-e6dc-4d02-94db-332345aec550" />
 
-English
+## English
 ## Features
 
 * **All essentials at a glance:** GPU temperature (with hotspot), CPU temperature, power draw of GPU and CPU in Watts, total combined power and estimated total PC power consumption
