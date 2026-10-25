@@ -1,7 +1,9 @@
-# PC Überblick
+# PC Overview
 
-**Temperatur, Leistung und Lüfter deines PCs. Groß, klar und auf einen Blick.**
+## English
+PC Overview shows GPU and CPU temperature and power draw in huge, readable numbers and lets you control both fans directly. Includes hotspot display, estimated total power, fan speed readout and an over temperature protection that switches back to Auto on its own. You set the temperature color scale for GPU, CPU and hotspot yourself. Two designs (Standard and Matrix), fullscreen, autostart, German and English. The software is also highly scalable
 
+## German
 PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und gut lesbar und lässt dich beide Lüfter direkt regeln. Mit Hotspot Anzeige, geschätztem Gesamtverbrauch, Drehzahlanzeige und Schutzfunktion, die bei zu hohen Temperaturen automatisch zurück auf Auto schaltet. Die Farbskala der Temperaturen stellst du für GPU, CPU und Hotspot selbst ein. Zwei Designs (Standard und Matrix), Vollbild, Autostart, Deutsch und Englisch. Die Software ist zudem extrem gut skalierbar. 
 
 <img width="911" height="661" alt="{A4FD4C39-7FC9-4470-9D0E-272EDC5A4CE6}" src="https://github.com/user-attachments/assets/773ff999-854e-4fbf-8971-bb3d31f0763f" />
@@ -14,7 +16,7 @@ PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und 
 ## Vorzüge
 
 * **Alles Wichtige groß im Blick:** GPU Temperatur (mit Hotspot), CPU Temperatur, Leistungsaufnahme von GPU und CPU in Watt, Summe und geschätzter Gesamtverbrauch des PCs
-* **Temperaturfarben:** Die Zahlen färben sich stufenlos von Eisblau bis Feuerrot, die Grenzen stellst du für GPU, CPU und Hotspot selbst ein
+* **Temperaturfarben:** Die Zahlen färben sich stufenlos von Eisblau bis Feuerrot, die Farbverlaufbereiche stellst du für GPU, CPU und Hotspot selbst ein
 * **Zwei Lüfterregler:** GPU Lüfter und CPU Lüfter (alle steuerbaren Mainboard Lüfter), mit Drehzahlanzeige und Auto Button für die Rückkehr zur Automatik
 * **Eingebaute Schutzfunktion:** Wird es zu heiß, springt der Regler automatisch zurück auf Auto
 * **Sicher beim Beenden:** Beim Schließen oder Absturz gehen die Lüfter wieder auf Automatik
@@ -72,7 +74,3 @@ Das Ergebnis liegt unter `bin/Release/net472/PCUeberblick.exe`. Alle DLLs, Bilde
 MIT, siehe `LICENSE`. Autor: MaoiBaoi
 
 ---
-
-## English summary
-
-PC Overview shows GPU and CPU temperature and power draw in huge, readable numbers and lets you control both fans directly. Includes hotspot display, estimated total power, fan speed readout and an over temperature protection that switches back to Auto on its own. You set the temperature color scale for GPU, CPU and hotspot yourself. Two designs (Standard and Matrix), fullscreen, autostart, German and English. The software is also highly scalable
