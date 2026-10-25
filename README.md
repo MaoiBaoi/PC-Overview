@@ -6,7 +6,8 @@ PC Overview shows GPU and CPU temperature and power draw in huge, readable numbe
 PC Überblick zeigt Temperatur und Stromverbrauch deiner GPU und CPU riesig und gut lesbar und lässt dich beide Lüfter direkt regeln. Mit Hotspot Anzeige, geschätztem Gesamtverbrauch, Drehzahlanzeige und Schutzfunktion, die bei zu hohen Temperaturen automatisch zurück auf Auto schaltet. Die Farbskala der Temperaturen stellst du für GPU, CPU und Hotspot selbst ein. Zwei Designs (Standard und Matrix), Vollbild, Autostart, Deutsch und Englisch. Die Software ist zudem extrem gut skalierbar. 
 
 <img width="911" height="661" alt="{A4FD4C39-7FC9-4470-9D0E-272EDC5A4CE6}" src="https://github.com/user-attachments/assets/773ff999-854e-4fbf-8971-bb3d31f0763f" />
-<img width="909" height="660" alt="{240A2E39-B7A9-4ABD-BED0-E38B104910B9}" src="https://github.com/user-attachments/assets/dafaf50e-fdd2-48b5-bd3f-6a2f07aad129" />
+<img width="910" height="662" alt="{751E1D01-A3EB-4E57-BCF4-9BB002CB1E0B}" src="https://github.com/user-attachments/assets/dcafc855-8140-4648-afd0-3944f06dfb99" />
+
 
 
 <img width="614" height="254" alt="{3A22E719-5974-40CE-86D0-3BA6F7562811}" src="https://github.com/user-attachments/assets/edf374b2-e6dc-4d02-94db-332345aec550" />
